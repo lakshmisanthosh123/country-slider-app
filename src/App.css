@@ -1,38 +1,56 @@
-.App {
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+h1 {
   text-align: center;
+  margin-top: 2rem;
+  color: #343a40; /* Darker text color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Login Page Styles */
+.container {
+  margin: 2rem auto;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #ffffff; /* White background for login form */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Home Page Styles */
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  margin: 1rem;
+  width: 250px; /* Fixed width for country cards */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.carousel {
+  margin-bottom: 2rem; /* Spacing below the slider */
+}
+
+/* Button Styles */
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card {
+      width: 100%; /* Full width on small screens */
   }
-  to {
-    transform: rotate(360deg);
+
+  .container {
+      margin: 1rem;
+      padding: 1rem; /* Less padding on smaller screens */
   }
 }

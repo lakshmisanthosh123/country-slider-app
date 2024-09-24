@@ -1,0 +1,133 @@
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input {
+    margin-right: 0.5rem;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #555;
+  }
+  
+  .or-divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #999;
+  }
+  
+  .social-signin {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .social-button.google {
+    color: #db4437;
+  }
+  
+  .social-button.facebook {
+    color: #4267B2;
+  }
+  
+  .social-button.linkedin {
+    color: #0077b5;
+  }
+  
+  .social-button.twitter {
+    color: #1da1f2;
+  }
+  
+  .person-icon img {
+    max-width: 150px;
+  }
+  
+  .person-icon {
+    margin-left: 2rem;
+  }
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .checkbox-group label {
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
